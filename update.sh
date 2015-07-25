@@ -7,5 +7,5 @@ fi
 
 git add scraped/
 today=`date '+%Y_%m_%d'`;
-git commit -am "Update scraped pages ${today}"
+git commit -m "Update scraped pages ${today}"
 git subtree push --prefix scraped mock gh-pages
