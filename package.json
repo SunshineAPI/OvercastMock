@@ -1,0 +1,24 @@
+{
+  "name": "OvercastMock",
+  "version": "1.0.0",
+  "description": "Scrape web pages from Overcast for API testing",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "bash update.sh",
+    "scrape": "node scrape.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunshineAPI/OvercastMock.git"
+  },
+  "author": "Jake0oo0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SunshineAPI/OvercastMock/issues"
+  },
+  "homepage": "https://github.com/SunshineAPI/OvercastMock",
+  "dependencies": {
+    "fs-extra": "^0.22.1",
+    "request": "^2.60.0"
+  }
+}
