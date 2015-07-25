@@ -1,0 +1,22 @@
+{
+  "name": "sunshine-mock.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunshineAPI/sunshine-mock.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunshineAPI/sunshine-mock.github.io/issues"
+  },
+  "homepage": "https://github.com/SunshineAPI/sunshine-mock.github.io",
+  "dependencies": {
+    "fs-extra": "^0.22.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.60.0"
+  }
+}
