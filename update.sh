@@ -5,7 +5,6 @@ if ! git remote | grep mock > /dev/null; then
 fi
 
 rm -rf tmp/
-rm -rf scraped/
 node scrape.js
 now=`date '+%m-%d-%Y'`;
 mkdir tmp/
