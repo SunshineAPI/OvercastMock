@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="EladWCkCGsiYXromIwBJHC/7NbdKuzt/I2uqHhS1sIo=" name="csrf-token"/>
+<meta charset='utf-8'>
+<title>
+Home - Overcast Network Forum
+</title>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"3477b5cdaa3a25debfe40d71bff5df24",petok:"12b3e7b12ed59736f44a51817ffcff7dba2fbee7-1437795939-1800",betok:"3cb701603f8422473012ed46ee01ad5f810e7654-1437795939-120",zone:"oc.tc",rocket:"0",apps:{"ga_key":{"ua":"UA-30515952-1","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e6ea9bd6c9/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link href="https://static.oc.tc/favicon.ico?v=2" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="https://static.oc.tc/assets/application-0c29703a77134d77bef930b2a24d0655.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="//fonts.googleapis.com/css?family=Lato:700,400,300" media="screen" rel="stylesheet" type="text/css"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="https://static.oc.tc/assets/libraries-ddc15291d1f99d5d6d7192255a32d66f.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://static.oc.tc/assets/application-05f9b97b377ce863e8de0ad460515056.js" type="text/javascript"></script>
+<script>
+  var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30515952-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body>
+<nav class='navbar navbar-static-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='brand' href='/' style='width: 185px;'>
+<img src='https://static.oc.tc/assets/logo-eb8d528ad6768886b6f2faabdeb24d15.png'>
+Overcast Network
+</a>
+<div class='nav-collapse'>
+<ul class='nav'>
+<li>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-video-camera'></i>
+Channels
+</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li class='active'>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+<li>
+<a href='/shop'>
+<i class='fa fa-shopping-cart'></i>
+Shop
+</a>
+</li>
+</ul>
+<ul class='nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' style='outline: none; '>
+<i class='fa fa-user'></i>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/login'>Login</a>
+</li>
+<li>
+<a href='/register'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='page-header' style='margin-bottom: 15px;'>
+<h1>
+Forums
+<small>Socialize with your friends</small>
+</h1>
+</div>
+<div class='row'>
+<div class='span3'>
+<div id='forum-sidebar'>
+<ul class='nav nav-list'>
+<li class='active'>
+<a href='/forums/'>What's New?</a>
+</li>
+</ul>
+<h4>Overcast Network</h4>
+<ul class='nav nav-list'>
+<li>
+<a href='/forums/4fc17119c463751492000018'>
+Announcements
+</a>
+</li>
+<li>
+<a href='/forums/51021905f344220e7b000010'>
+New Player Guides
+</a>
+</li>
+<li>
+<a href='/forums/4fc17142c46375149200001c'>
+Questions &amp; Feedback
+</a>
+</li>
+<li>
+<a href='/forums/557e21685f35b92506006f9e'>
+Ask the Seniors
+</a>
+</li>
+</ul>
+<h4>Community</h4>
+<ul class='nav nav-list'>
+<li>
+<a href='/forums/4fc171b7c463751492000020'>
+General Discussion
+</a>
+</li>
+<li>
+<a href='/forums/513014bfba6087c5760002b0'>
+Introduce Yourself
+</a>
+</li>
+<li>
+<a href='/forums/4fc171fcc46375149200002c'>
+Skill &amp; Strategy
+</a>
+</li>
+<li>
+<a href='/forums/4fc17212c463751492000030'>
+Creative Content
+</a>
+</li>
+<li>
+<a href='/forums/4fc17a47c4637515f7000020'>
+Other Games
+</a>
+</li>
+<li>
+<a href='/forums/4fc17a31c4637515f700001e'>
+Off Topic
+</a>
+</li>
+</ul>
+<h4>Map Making</h4>
+<ul class='nav nav-list'>
+<li>
+<a href='/forums/4fc17267c463751492000034'>
+Information
+</a>
+</li>
+<li>
+<a href='/forums/53f7a8d0d7c83698b7b67498'>
+Discussion
+</a>
+</li>
+<li>
+<a href='/forums/4fc17996c4637515f7000016'>
+Maps
+</a>
+</li>
+</ul>
+<h4>Events</h4>
+<ul class='nav nav-list'>
+<li>
+<a href='/forums/53f7ed775f35b9e339000a9a'>
+Information
+</a>
+</li>
+<li>
+<a href='/forums/52e4937c12ca952d000010f9'>
+Discussion
+</a>
+</li>
+<li>
+<a href='/forums/52e48f6d12ca959a96000e76'>
+Looking for Team
+</a>
+</li>
+<li>
+<a href='/forums/52e48f8612ca95ab56000fc1'>
+Looking for Members
+</a>
+</li>
+<li>
+<a href='/forums/52e48f9c12ca959ad0000daa'>
+Looking for Scrimmage
+</a>
+</li>
+</ul>
+<h4>
+Online Users
+<small>142</small>
+</h4>
+<small><a href="/khazhyk" style="color: #f89406">khazhyk</a>, <a href="/Anthonny" style="color: #2233aa">Anthonny</a>, <a href="/Strangey" style="color: #2233aa">Strangey</a>, <a href="/mitchiii_" style="color: #2233aa">mitchiii_</a>, <a href="/Pugzy" style="color: #2233aa">Pugzy</a>, <a href="/ElectroidFilms" style="color: #2233aa">ElectroidFilms</a>, <a href="/MySquishyTurtle" style="color: #F20">MySquishyTurtle</a>, <a href="/Buck" style="color: #F20">Buck</a>, <a href="/Sorlite" style="color: #3EBCBC">Sorlite</a>, <a href="/Jacub" style="color: #3EBCBC">Jacub</a>, <a href="/Timothee38" style="color: #3EBCBC">Timothee38</a>, <a href="/slayersource" style="color: #3EBCBC">slayersource</a>, <a href="/Kit10s" style="color: #08c">Kit10s</a>, <a href="/kingoros" style="color: #08c">kingoros</a>, <a href="/minsii" style="color: #08c">minsii</a>, <a href="/Unausgeschlafen" style="color: #08c">Unausgeschlafen</a>, <a href="/Katt" style="color: #08c">Katt</a>, <a href="/_THELMA_" style="color: #08c">_THELMA_</a>, <a href="/Inharu" style="color: #08c">Inharu</a>, <a href="/DianoJajaro" style="color: #08c">DianoJajaro</a>, <a href="/JustKoala_" style="color: #08c">JustKoala_</a>, <a href="/xKingOfAllx" style="color: #08c">xKingOfAllx</a>, <a href="/DialGoose" style="color: #08c">DialGoose</a>, <a href="/xPatrollCL" style="color: #08c">xPatrollCL</a>, <a href="/TAG4956" style="color: #08c">TAG4956</a>, <a href="/Brokennz" style="color: #08c">Brokennz</a>, <a href="/ImJeezus" style="color: #08c">ImJeezus</a>, <a href="/Sebasxxtian" style="color: #08c">Sebasxxtian</a>, <a href="/Beaulicious" style="color: #08c">Beaulicious</a>, <a href="/EdwinAsiTalCual" style="color: #08c">EdwinAsiTalCual</a>, <a href="/Liggy" style="color: #08c">Liggy</a>, <a href="/Albinooooooo" style="color: #08c">Albinooooooo</a>, <a href="/HugMe_" style="color: #08c">HugMe_</a>, <a href="/txjhawk" style="color: #08c">txjhawk</a>, <a href="/Goonchi" style="color: #08c">Goonchi</a>, <a href="/Soglaid" style="color: #08c">Soglaid</a>, <a href="/candcshow" style="color: #08c">candcshow</a>, <a href="/latiku" style="color: #08c">latiku</a>, <a href="/trashtruckdude96" style="color: #08c">trashtruckdude96</a>, <a href="/xiWINKYix13" style="color: #08c">xiWINKYix13</a>, <a href="/Chevy" style="color: #08c">Chevy</a>, <a href="/End3rHuNt3r_" style="color: #08c">End3rHuNt3r_</a>, <a href="/Playo_Del_Sky" style="color: #08c">Playo_Del_Sky</a>, <a href="/Elly" style="color: #08c">Elly</a>, <a href="/TheBestFacu" style="color: #08c">TheBestFacu</a>, <a href="/Plumbum" style="color: #08c">Plumbum</a>, <a href="/Superjd10" style="color: #08c">Superjd10</a>, <a href="/Soound" style="color: #08c">Soound</a>, <a href="/VivaLaBaguette" style="color: #08c">VivaLaBaguette</a>, <a href="/_Itzcool" style="color: #08c">_Itzcool</a>, <a href="/Zicuri" style="color: #08c">Zicuri</a>, <a href="/Astrometeor" style="color: #08c">Astrometeor</a>, <a href="/Trollxz" style="color: #08c">Trollxz</a>, <a href="/DoctaShock" style="color: #08c">DoctaShock</a>, <a href="/Tapetepato" style="color: #08c">Tapetepato</a>, <a href="/Goldi100" style="color: #08c">Goldi100</a>, <a href="/porkbucket2" style="color: #08c">porkbucket2</a>, <a href="/Matilaina" style="color: #08c">Matilaina</a>, <a href="/0207xander" style="color: #08c">0207xander</a>, <a href="/Legomantom" style="color: #08c">Legomantom</a>, <a href="/Peporin" style="color: #08c">Peporin</a>, <a href="/Gamjah" style="color: #08c">Gamjah</a>, <a href="/Its_AJ" style="color: #08c">Its_AJ</a>, <a href="/MonstroGateau" style="color: #08c">MonstroGateau</a>, <a href="/_Lyrox" style="color: #08c">_Lyrox</a>, <a href="/ID10" style="color: #08c">ID10</a>, <a href="/Dykam" style="color: #08c">Dykam</a>, <a href="/AsdeMC" style="color: #08c">AsdeMC</a>, <a href="/Chocostunt" style="color: #08c">Chocostunt</a>, <a href="/Broham" style="color: #08c">Broham</a>, <a href="/YmzaaaN" style="color: #08c">YmzaaaN</a>, <a href="/Epsilpha" style="color: #08c">Epsilpha</a>, <a href="/Dr_Juan" style="color: #08c">Dr_Juan</a>, <a href="/Elliott_Moose" style="color: #08c">Elliott_Moose</a>, <a href="/dialgos" style="color: #08c">dialgos</a>, <a href="/stroodel" style="color: #08c">stroodel</a>, <a href="/Sergio_" style="color: #08c">Sergio_</a>, <a href="/iSolc" style="color: #08c">iSolc</a>, <a href="/SinnesWolf" style="color: #08c">SinnesWolf</a>, <a href="/AMSGamingTQ" style="color: #08c">AMSGamingTQ</a>, <a href="/crikimaruc" style="color: #08c">crikimaruc</a>, <a href="/luksky_lker" style="color: #08c">luksky_lker</a>, <a href="/alitan10" style="color: #08c">alitan10</a>, <a href="/Steveej" style="color: #08c">Steveej</a>, <a href="/TheGhostWow" style="color: #08c">TheGhostWow</a>, <a href="/Sr_Elmo" style="color: #08c">Sr_Elmo</a>, <a href="/ItalianCombo" style="color: #08c">ItalianCombo</a>, <a href="/WizardIsPro" style="color: #08c">WizardIsPro</a>, <a href="/_Pinee" style="color: #08c">_Pinee</a>, <a href="/Zalvaryus" style="color: #08c">Zalvaryus</a>, <a href="/Melonnade" style="color: #08c">Melonnade</a>, <a href="/Black_Site" style="color: #08c">Black_Site</a>, <a href="/Hootdra" style="color: #08c">Hootdra</a>, <a href="/Neu_" style="color: #08c">Neu_</a>, <a href="/Dartho" style="color: #08c">Dartho</a>, <a href="/AB_DWade3" style="color: #08c">AB_DWade3</a>, <a href="/Emilianothemax" style="color: #08c">Emilianothemax</a>, <a href="/MathiPvPTRICOLOR" style="color: #08c">MathiPvPTRICOLOR</a>, <a href="/AlejoPvPGamer" style="color: #08c">AlejoPvPGamer</a>, <a href="/EmiTo3" style="color: #08c">EmiTo3</a>, <a href="/Kevinthedude2000" style="color: #08c">Kevinthedude2000</a>, <a href="/Nexther" style="color: #08c">Nexther</a>, <a href="/fernando119" style="color: #08c">fernando119</a>, <a href="/FallenSavi" style="color: #08c">FallenSavi</a>, <a href="/_vichoo" style="color: #08c">_vichoo</a>, <a href="/falz" style="color: #08c">falz</a>, <a href="/CubeKiid" style="color: #08c">CubeKiid</a>, <a href="/iDaniel_MC" style="color: #08c">iDaniel_MC</a>, <a href="/Bestia_Desnuda" style="color: #08c">Bestia_Desnuda</a>, <a href="/el_ZickZack" style="color: #08c">el_ZickZack</a>, <a href="/Foscra" style="color: #08c">Foscra</a>, <a href="/Devotion" style="color: #08c">Devotion</a>, <a href="/Vegeta777Rex1mes" style="color: #08c">Vegeta777Rex1mes</a>, <a href="/Dickson_" style="color: #08c">Dickson_</a>, <a href="/Luis_RV" style="color: #08c">Luis_RV</a>, <a href="/Peeeerrriii14" style="color: #08c">Peeeerrriii14</a>, <a href="/YuyoG0D" style="color: #08c">YuyoG0D</a>, <a href="/OreMiner28" style="color: #08c">OreMiner28</a>, <a href="/El_Maty" style="color: #08c">El_Maty</a>, <a href="/AgustinMonter02" style="color: #08c">AgustinMonter02</a>, <a href="/iChicken_PvP" style="color: #08c">iChicken_PvP</a>, <a href="/Nanamen_" style="color: #08c">Nanamen_</a>, <a href="/AdriMoshi" style="color: #08c">AdriMoshi</a>, <a href="/ItzRilo" style="color: #08c">ItzRilo</a>, <a href="/_Inner" style="color: #08c">_Inner</a>, <a href="/Fabio_" style="color: #08c">Fabio_</a>, <a href="/AleeStrats" style="color: #08c">AleeStrats</a>, <a href="/iDesing98" style="color: #08c">iDesing98</a>, <a href="/RickMast" style="color: #08c">RickMast</a>, <a href="/NoisyShock" style="color: #08c">NoisyShock</a>, <a href="/JBS0613" style="color: #08c">JBS0613</a>, <a href="/MiaKhalifaLover" style="color: #08c">MiaKhalifaLover</a>, <a href="/Komurashaki" style="color: #08c">Komurashaki</a>, <a href="/ilirias" style="color: #08c">ilirias</a>, <a href="/OhMyGods" style="color: #08c">OhMyGods</a>, <a href="/EliiassMC" style="color: #08c">EliiassMC</a>, <a href="/Carlo_22" style="color: #08c">Carlo_22</a>, <a href="/__NatuPvP__" style="color: #08c">__NatuPvP__</a>, <a href="/hedgybedgy" style="color: #08c">hedgybedgy</a>, <a href="/Woltreii" style="color: #08c">Woltreii</a>, <a href="/_ThatSando_" style="color: #08c">_ThatSando_</a>, <a href="/McArbiter" style="color: #08c">McArbiter</a></small>
+</div>
+</div>
+<div class='span9'>
+<div class='btn-group pull-left'>
+<a class='btn btn-small disabled'>
+1
+</a>
+<a class='btn btn-small' href='/forums/?page=2'>
+2
+</a>
+<a class='btn btn-small' href='/forums/?page=3'>
+3
+</a>
+<a class='btn btn-small' href='/forums/?page=4'>
+4
+</a>
+<a class='btn btn-small' href='/forums/?page=5'>
+5
+</a>
+<a class='btn btn-small disabled'>&hellip;</a>
+<a class='btn btn-small' href='/forums/?page=3745'>Last &raquo;</a>
+</div>
+<table class='table table-striped'>
+<thead>
+<tr>
+<th class='byline'>Topic</th>
+<th class='latest-post' width='180px'>Latest</th>
+<th style='text-align: center'>Posts</th>
+<th style='text-align: center'>Views</th>
+</tr>
+</thead>
+<tbody>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55ad4c355f35b9a51000e5d8">My First Time With Jubei_88</a>
+</div>
+<small class='started-by'>
+<a href='/Spintown' style='color: #08c'>Spintown</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 20th, 2015 -  2:29 PM'>4 days ago</span>
+<small>in</small>
+<a href='/forums/4fc17212c463751492000030' rel='tooltip' title='Community: Creative Content'>
+<small>Creative Content</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Fabio_/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Fabio_' style='color: #08c'>Fabio_</a>
+<div>
+<small><a href="/forums/posts/55b30622c296351ce1019a0e" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:44 PM">1 minute ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>15</strong>
+</td>
+<td style='text-align: center'>
+<strong>164</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2e5b5c296358adc017045">Is This the Sad Truth?</a>
+</div>
+<small class='started-by'>
+<a href='/FireRatz' style='color: #08c'>FireRatz</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  8:26 PM'>2 hours ago</span>
+<small>in</small>
+<a href='/forums/4fc171fcc46375149200002c' rel='tooltip' title='Community: Skill &amp; Strategy'>
+<small>Skill &amp; Strategy</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/0207xander/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/0207xander' style='color: #08c'>0207xander</a>
+<div>
+<small><a href="/forums/posts/55b305bcc29635dc6d015caa" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:42 PM">3 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>13</strong>
+</td>
+<td style='text-align: center'>
+<strong>214</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b1bb7ec29635fd200187a6">AMA - zicuri </a>
+</div>
+<small class='started-by'>
+<a href='/Zicuri' style='color: #08c'>Zicuri</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 23rd, 2015 - 11:13 PM'>24 hours ago</span>
+<small>in</small>
+<a href='/forums/513014bfba6087c5760002b0' rel='tooltip' title='Community: Introduce Yourself'>
+<small>Introduce Yourself</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/_vichoo/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/_vichoo' style='color: #08c'>_vichoo</a>
+<div>
+<small><a href="/forums/posts/55b30450c29635a0ea01c36a" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:36 PM">9 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>39</strong>
+</td>
+<td style='text-align: center'>
+<strong>281</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/5374d3a812ca951e4f000549">► Overcast Network Longest Bow Shot Records ◄</a>
+</div>
+<small class='started-by'>
+<a href='/matic0basle' style='color: #08c'>matic0basle</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='May 15th, 2014 -  9:48 AM'>1 year ago</span>
+<small>in</small>
+<a href='/forums/4fc171b7c463751492000020' rel='tooltip' title='Community: General Discussion'>
+<small>General Discussion</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/End3rHuNt3r_/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/End3rHuNt3r_' style='color: #08c'>End3rHuNt3r_</a>
+<div>
+<small><a href="/forums/posts/55b303095f35b94af300a03d" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:31 PM">14 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>1663</strong>
+</td>
+<td style='text-align: center'>
+<strong>23457</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55adb5fd5f35b9046e00d2e7">Nakiri/SacateLaMochila AMA</a>
+</div>
+<small class='started-by'>
+<a href='/Nakiri' style='color: #08c'>Nakiri</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 20th, 2015 - 10:01 PM'>4 days ago</span>
+<small>in</small>
+<a href='/forums/513014bfba6087c5760002b0' rel='tooltip' title='Community: Introduce Yourself'>
+<small>Introduce Yourself</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Chevy/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Chevy' style='color: #08c'>Chevy</a>
+<div>
+<small><a href="/forums/posts/55b302315f35b94eec01a4aa" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:27 PM">18 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>86</strong>
+</td>
+<td style='text-align: center'>
+<strong>496</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/5422624f67d522de2a001fdc"><img alt="video_game" src="https://static.oc.tc/images/emoji/unicode/1f3ae.png" style="vertical-align:middle;" width="16" height="16"/>[Forum Game] Smash Bros. Hurt &#x27;n&#x27; Heal</a>
+</div>
+<small class='started-by'>
+<a href='/FloppehFeesh' style='color: #08c'>FloppehFeesh</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='September 24th, 2014 -  1:18 AM'>10 months ago</span>
+<small>in</small>
+<a href='/forums/4fc17a47c4637515f7000020' rel='tooltip' title='Community: Other Games'>
+<small>Other Games</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/SailorMojo/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/SailorMojo' style='color: #F20'>SailorMojo</a>
+<div>
+<small><a href="/forums/posts/55b30126c29635c9c701a4aa" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:23 PM">22 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>1750</strong>
+</td>
+<td style='text-align: center'>
+<strong>11657</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2ff02c296359c46018a01">Nexus</a>
+</div>
+<small class='started-by'>
+<a href='/WhalesV2' style='color: #08c'>WhalesV2</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 - 10:14 PM'>31 minutes ago</span>
+<small>in</small>
+<a href='/forums/4fc171b7c463751492000020' rel='tooltip' title='Community: General Discussion'>
+<small>General Discussion</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/WhalesV2/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/WhalesV2' style='color: #08c'>WhalesV2</a>
+<div>
+<small><a href="/forums/posts/55b30124c29635dc6d015bde" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:23 PM">22 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>7</strong>
+</td>
+<td style='text-align: center'>
+<strong>37</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55ae1f63c296351ce100ef67">AMA thing</a>
+</div>
+<small class='started-by'>
+<a href='/Crazy_Creeper521' style='color: #F88'>Crazy_Creeper521</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 21st, 2015 -  5:30 AM'>4 days ago</span>
+<small>in</small>
+<a href='/forums/513014bfba6087c5760002b0' rel='tooltip' title='Community: Introduce Yourself'>
+<small>Introduce Yourself</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Crazy_Creeper521/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Crazy_Creeper521' style='color: #F88'>Crazy_Creeper521</a>
+<div>
+<small><a href="/forums/posts/55b300fec296355e0a018177" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:22 PM">23 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>40</strong>
+</td>
+<td style='text-align: center'>
+<strong>383</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2ed805f35b93030006978">AMA MarkhoSW/ascendance02</a>
+</div>
+<small class='started-by'>
+<a href='/Ascendance02' style='color: #08c'>Ascendance02</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  8:59 PM'>2 hours ago</span>
+<small>in</small>
+<a href='/forums/513014bfba6087c5760002b0' rel='tooltip' title='Community: Introduce Yourself'>
+<small>Introduce Yourself</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/_vichoo/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/_vichoo' style='color: #08c'>_vichoo</a>
+<div>
+<small><a href="/forums/posts/55b2ffefc2963515a501b592" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:18 PM">28 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>6</strong>
+</td>
+<td style='text-align: center'>
+<strong>28</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55ac0da85f35b9f74e00bc8d">Making free music for your YT vids <img alt="smile" src="https://static.oc.tc/images/emoji/unicode/1f604.png" style="vertical-align:middle;" width="16" height="16"/><img alt="notes" src="https://static.oc.tc/images/emoji/unicode/1f3b6.png" style="vertical-align:middle;" width="16" height="16"/></a>
+</div>
+<small class='started-by'>
+<a href='/crikimaruc' style='color: #08c'>crikimaruc</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 19th, 2015 -  3:50 PM'>5 days ago</span>
+<small>in</small>
+<a href='/forums/4fc17a31c4637515f700001e' rel='tooltip' title='Community: Off Topic'>
+<small>Off Topic</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/crikimaruc/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/crikimaruc' style='color: #08c'>crikimaruc</a>
+<div>
+<small><a href="/forums/posts/55b2ff355f35b9eab501383a" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:15 PM">31 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>21</strong>
+</td>
+<td style='text-align: center'>
+<strong>118</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b253f95f35b91d1a019c0c">AMA - xNatanET</a>
+</div>
+<small class='started-by'>
+<a href='/PYQ' style='color: #08c'>PYQ</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 - 10:04 AM'>13 hours ago</span>
+<small>in</small>
+<a href='/forums/513014bfba6087c5760002b0' rel='tooltip' title='Community: Introduce Yourself'>
+<small>Introduce Yourself</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Fede_37/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Fede_37' style='color: #08c'>Fede_37</a>
+<div>
+<small><a href="/forums/posts/55b2fe8d5f35b94eec01a40d" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:12 PM">33 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>27</strong>
+</td>
+<td style='text-align: center'>
+<strong>195</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2f6f65f35b96b3f01127b">txjhawk ocn videos</a>
+</div>
+<small class='started-by'>
+<a href='/txjhawk' style='color: #08c'>txjhawk</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  9:39 PM'>1 hour ago</span>
+<small>in</small>
+<a href='/forums/4fc17212c463751492000030' rel='tooltip' title='Community: Creative Content'>
+<small>Creative Content</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Sosruko/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Sosruko' style='color: #F20'>Sosruko</a>
+<div>
+<small><a href="/forums/posts/55b2fdfac296352d5801d4af" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:09 PM">36 minutes ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>5</strong>
+</td>
+<td style='text-align: center'>
+<strong>73</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/50494e68b944ec59bc00596c">Awesome Music Thread</a>
+<i class='fa fa-bookmark'></i>
+</div>
+<small class='started-by'>
+<a href='/khazhyk' style='color: #f89406'>khazhyk</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='September 6th, 2012 -  8:31 PM'>almost 3 years ago</span>
+<small>in</small>
+<a href='/forums/4fc17a31c4637515f700001e' rel='tooltip' title='Community: Off Topic'>
+<small>Off Topic</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Timothee38/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Timothee38' style='color: #3EBCBC'>Timothee38</a>
+<div>
+<small><a href="/forums/posts/55b2fbb45f35b9157f018d66" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 - 10:00 PM">1 hour ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>2485</strong>
+</td>
+<td style='text-align: center'>
+<strong>35868</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b24a915f35b9dc72019c5d">Flag Proximity</a>
+<i class='fa fa-bookmark'></i>
+</div>
+<small class='started-by'>
+<a href='/Cubist' style='color: #f89406'>Cubist</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  9:24 AM'>13 hours ago</span>
+<small>in</small>
+<a href='/forums/53f7ed775f35b9e339000a9a' rel='tooltip' title='Events: Information'>
+<small>Information</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/SheriffSoco/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/SheriffSoco' style='color: #F20'>SheriffSoco</a>
+<div>
+<small><a href="/forums/posts/55b2fb04c296351ce1019902" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 -  9:57 PM">1 hour ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>30</strong>
+</td>
+<td style='text-align: center'>
+<strong>681</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/512a7072ba60874c73000009">WEEaboo WorLD շ(᷄᷃ʘ̤ ヮʘ᷇᷄)ڰ</a>
+<i class='fa fa-bookmark'></i>
+</div>
+<small class='started-by'>
+<a href='/bend' style='color: #08c'>bend</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='February 24th, 2013 -  1:56 PM'>over 2 years ago</span>
+<small>in</small>
+<a href='/forums/4fc17a31c4637515f700001e' rel='tooltip' title='Community: Off Topic'>
+<small>Off Topic</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/bleangamer/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/bleangamer' style='color: #08c'>bleangamer</a>
+<div>
+<small><a href="/forums/posts/55b2f9b45f35b93d18008e8d" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 -  9:51 PM">1 hour ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>6045</strong>
+</td>
+<td style='text-align: center'>
+<strong>65881</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2c28f5f35b9622f017ac6">the server has lag or It is my problem?</a>
+</div>
+<small class='started-by'>
+<a href='/Wastroll' style='color: #08c'>Wastroll</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  5:56 PM'>5 hours ago</span>
+<small>in</small>
+<a href='/forums/4fc171b7c463751492000020' rel='tooltip' title='Community: General Discussion'>
+<small>General Discussion</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Tactical_Roses/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Tactical_Roses' style='color: #08c'>Tactical_Roses</a>
+<div>
+<small><a href="/forums/posts/55b2f9ae5f35b94eec01a32d" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 -  9:51 PM">1 hour ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>6</strong>
+</td>
+<td style='text-align: center'>
+<strong>135</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2524d5f35b9dc72019dd3">Do you like this blocks?</a>
+</div>
+<small class='started-by'>
+<a href='/Tapetepato' style='color: #08c'>Tapetepato</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  9:57 AM'>13 hours ago</span>
+<small>in</small>
+<a href='/forums/4fc17212c463751492000030' rel='tooltip' title='Community: Creative Content'>
+<small>Creative Content</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/Twelve/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/Twelve' style='color: #08c'>Twelve</a>
+<div>
+<small><a href="/forums/posts/55b2f8cbc2963558d0017abb" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 -  9:47 PM">1 hour ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>22</strong>
+</td>
+<td style='text-align: center'>
+<strong>293</strong>
+</td>
+</tr>
+<tr class='topic'>
+<td>
+<div>
+<a href="/forums/topics/55b2b702c2963555e5017a77">What version of Minecraft do you use ?</a>
+</div>
+<small class='started-by'>
+<a href='/TheNickLazer' style='color: #08c'>TheNickLazer</a>
+<span data-container='body' data-placement='top' rel='tooltip' title='July 24th, 2015 -  5:06 PM'>6 hours ago</span>
+<small>in</small>
+<a href='/forums/4fc17a31c4637515f700001e' rel='tooltip' title='Community: Off Topic'>
+<small>Off Topic</small>
+</a>
+</small>
+</td>
+<td>
+<div style='position:relative;'>
+<a class='pull-left' style='position:relative; margin: 4px 5px 0 0;'>
+<img class='avatar' src='https://avatar.oc.tc/JBS0613/32@2x.png' alt='' title='' width='32' height='32' style='width: 32px; height: 32px; vertical-align: bottom'/>
+</a>
+<a href='/JBS0613' style='color: #08c'>JBS0613</a>
+<div>
+<small><a href="/forums/posts/55b2f6c55f35b9157f018c52" data-container="body" data-placement="top" rel="tooltip" title="July 24th, 2015 -  9:39 PM">1 hour ago</a></small>
+</div>
+</div>
+</td>
+<td style='text-align: center'>
+<strong>20</strong>
+</td>
+<td style='text-align: center'>
+<strong>167</strong>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='btn-group pull-left'>
+<a class='btn btn-small disabled'>
+1
+</a>
+<a class='btn btn-small' href='/forums/?page=2'>
+2
+</a>
+<a class='btn btn-small' href='/forums/?page=3'>
+3
+</a>
+<a class='btn btn-small' href='/forums/?page=4'>
+4
+</a>
+<a class='btn btn-small' href='/forums/?page=5'>
+5
+</a>
+<a class='btn btn-small disabled'>&hellip;</a>
+<a class='btn btn-small' href='/forums/?page=3745'>Last &raquo;</a>
+</div>
+<div class='pull-right'>
+<a href='/host'>
+<img src='https://static.oc.tc/assets/host/beastnode3-2898b21d80bd16c4ea98de8deb89d38e.png'>
+</a>
+</div>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal hide fade' id='contact'>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'></button>
+<h3>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<form accept-charset="UTF-8" action="/inquire" class="simple_form new_inquiry" id="new_inquiry" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/><input name="authenticity_token" type="hidden" value="EladWCkCGsiYXromIwBJHC/7NbdKuzt/I2uqHhS1sIo="/></div><div class='modal-body'>
+<div class='control-group pull-left'>
+<label class="string optional control-label" for="inquiry_username">Username</label>
+<div class='controls'>
+<input id="inquiry_username" name="inquiry[username]" required="required" size="30" style="width: 250px" type="text"/>
+</div>
+</div>
+<div class='control-group pull-right'>
+<label class="email optional control-label" for="inquiry_email">Email</label>
+<div class='controls'>
+<input id="inquiry_email" name="inquiry[email]" required="required" size="30" type="email"/>
+</div>
+</div>
+<div class='control-group pull-right'>
+<label class="string optional control-label" for="inquiry_subject">Subject</label>
+<div class='controls'>
+<input id="inquiry_subject" name="inquiry[subject]" required="required" size="30" type="text"/>
+</div>
+</div>
+<div class='control-group pull-left'>
+<label class="string optional control-label" for="inquiry_message">Message</label>
+<div class='controls'>
+<textarea cols="40" id="inquiry_message" name="inquiry[message]" rows="10" style="width: 250px">
+</textarea>
+</div>
+</div>
+<input class='subj' name='type' type='hidden' value=''>
+<div class='pull-right' style='width: 220px'>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process your inquiry faster.</p>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' type='submit' value='Send'>
+</div>
+</form>
+</div>
+<footer>
+<ul class='nav nav-pills'>
+<li class='pull-left'>
+<a>&copy; 2015 Overcast Network</a>
+</li>
+<li class='dropup pull-right' style='margin-top: -1px;'>
+<a class='dropup-toggle' data-toggle='dropdown' href='#' style='outline: none'>
+Contact
+<i class='fa fa-chevron-up'></i>
+</a>
+<ul class='dropdown-menu'>
+<li class='nav-header'>How can we help?</li>
+<li class='divider'></li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General Inquiry</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeal</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues' target='_blank'>Technical Issue</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Purchase Question</a>
+</li>
+</ul>
+</li>
+<li class='dropup pull-right' style='margin-top: -1px;'>
+<a class='dropup-toggle' data-toggle='dropdown' href='#' style='outline: none'>
+Rules
+<i class='fa fa-chevron-up'></i>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/rules'>Server Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+</ul>
+</li>
+<li class='pull-right'>
+<a href='/punishments'>Punishments</a>
+</li>
+<li class='pull-right'>
+<a href='/report'>Report</a>
+</li>
+<li class='pull-right'>
+<a href='/appeal'>Appeal</a>
+</li>
+<li class='pull-right'>
+<a href='/staff'>Staff</a>
+</li>
+<li class='pull-right'>
+<a href='/revisions'>
+Revisions
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</body>
+</html>
