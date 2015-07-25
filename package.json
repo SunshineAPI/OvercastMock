@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SunshineAPI/OvercastMock",
   "dependencies": {
+    "cheerio": "^0.19.0",
     "fs-extra": "^0.22.1",
     "request": "^2.60.0"
   }

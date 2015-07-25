@@ -1,6 +1,7 @@
 var base_url = "https://oc.tc";
 var request = require("request");
 var fs = require("fs-extra");
+var cheerio = require("cheerio");
 
 var scrapes = [{
 	path: "/",
@@ -30,6 +31,11 @@ for (var scrape in scrapes) {
 			if (error) {
 				return console.error("request error", error);
 			}
+
+			var $ = cheerio.load(body);
+
+			var garbage = $("script,link").remove();
+			body = $.html();
 
 			var path = page.file;
 			var file = path.match(/[^\/]+$/)[0];
