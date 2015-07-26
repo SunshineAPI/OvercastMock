@@ -11,11 +11,11 @@
     "type": "git",
     "url": "https://github.com/SunshineAPI/OvercastMock.git"
   },
-  "author": "Jake0oo0",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SunshineAPI/OvercastMock/issues"
   },
+  "author": "Jake0oo0",
+  "license": "MIT",
   "homepage": "https://github.com/SunshineAPI/OvercastMock",
   "dependencies": {
     "cheerio": "^0.19.0",
