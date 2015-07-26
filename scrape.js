@@ -39,6 +39,27 @@ var scrapes = [{
 }, {
 	path: "/maps/rotation/4f77c9bfc463750586000001",
 	file: "maps/rotation/4f77c9bfc463750586000001/index.html"
+}, {
+	path: "/channels",
+	file: "channels/index.html"
+}, {
+	path: "/staff",
+	file: "staff/index.html"
+}, {
+	path: "/stats",
+	file: "stats/index.html"
+}, {
+	path: "/tournaments",
+	file: "tournaments/index.html"
+}, {
+	path: "/tournaments/age-of-ares",
+	file: "tournaments/age-of-ares/index.html"
+}, {
+	path: "/teams",
+	file: "teams/index.html"
+}, {
+	path: "/teams/sunshined",
+	file: "teams/sunshined/index.html"
 }];
 
 console.log("Starting scraping...");
@@ -72,7 +93,7 @@ function getScrape(c) {
 			if (res) {
 				var comp = new Date() - res.mtime;
 				var minutes = Math.floor((comp / 1000) / 60);
-				if (minutes < 30) {
+				if (minutes < 240) {
 					console.log("Not downloading, file is still new.");
 					return next();
 				}
@@ -99,7 +120,7 @@ function getScrape(c) {
 
 						console.log("Successfully saved the path " + page.path);
 
-						next();
+						next(5000);
 					});
 				})
 
