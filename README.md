@@ -11,3 +11,6 @@ Due the Sunshine being based on a 3rd party website, we are unable to make rapid
 ## Usage
 0. Run ```update.sh``` to run the scraper and push results to the mock website.
   * Alternatively run ```node scrape.js``` to only scrape the web pages.
+
+## License
+OvercastMock is licensed under the MIT license.
