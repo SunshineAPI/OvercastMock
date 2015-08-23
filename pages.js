@@ -41,8 +41,8 @@ var scrapes = [{
 	path: "/staff",
 	file: "staff/index.html"
 }, {
-	path: "/stats",
-	file: "stats/index.html"
+	path: "/leaderboard",
+	file: "leaderboard/index.html"
 }, {
 	path: "/tournaments",
 	file: "tournaments/index.html"
